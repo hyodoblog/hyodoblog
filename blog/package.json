@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "dev": "nuxi dev",
+    "dev": "cross-env TAILWIND_MODE=watch nuxi dev",
     "build": "nuxi build",
     "start": "node .output/server/index.mjs"
   },
